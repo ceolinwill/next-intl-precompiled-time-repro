@@ -1,0 +1,8 @@
+{
+  "time": "{value, time}",
+  "timeShort": "{value, time, short}",
+  "timeMedium": "{value, time, medium}",
+  "date": "{value, date}",
+  "dateShort": "{value, date, short}",
+  "dateMedium": "{value, date, medium}"
+}
