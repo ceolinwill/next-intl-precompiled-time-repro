@@ -1,6 +1,6 @@
 # next-intl precompiled `{value, time}` Reproduction
 
-Minimal reproduction for `{value, time}` rendering a date when `experimental.messages.precompile` is on. `{value, time}`, `{value, time, short}` and `{value, time, medium}` all render `9/27/2026` instead of the time. The built-in `short` and `medium` date styles stop applying too. Turning `precompile` off renders all of them as expected. Nothing warns, in development or production.
+Minimal reproduction for `{value, time}` rendering a date when `experimental.messages.precompile` is on. `{value, time}`, `{value, time, short}` and `{value, time, medium}` all render `9/27/2026` instead of the time. The built-in `short` and `medium` date styles stop applying too. Turning `precompile` off renders all of them as expected. Nothing warns, in development or production. Reported in https://github.com/amannn/next-intl/issues/2447.
 
 ## Reproduction
 
